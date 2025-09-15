@@ -1,0 +1,39 @@
+{
+  "name": "recipe-extraction",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build --turbopack",
+    "start": "next start",
+    "lint": "eslint"
+  },
+  "dependencies": {
+    "@langchain/community": "^0.3.55",
+    "@langchain/core": "^0.3.75",
+    "@langchain/openai": "^0.6.11",
+    "@mantine/code-highlight": "^8.3.1",
+    "@mantine/core": "^8.3.1",
+    "@mantine/hooks": "^8.3.1",
+    "@types/pdf-parse": "^1.1.5",
+    "fs": "^0.0.1-security",
+    "langchain": "^0.3.33",
+    "next": "15.5.3",
+    "pdf-parse-new": "^1.4.1",
+    "pdfjs-dist": "^5.4.149",
+    "react": "19.1.0",
+    "react-dom": "19.1.0",
+    "zod": "^3.25.76"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "15.5.3",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  }
+}
