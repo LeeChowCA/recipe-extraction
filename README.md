@@ -66,7 +66,7 @@ Frontend (Next.js) → PDF.js → API Route → LangChain + OpenAI → Structure
 
 ### Areas Needing Improvement 🔧
 
-- **Measurement Ambiguity**: Casual language and approximations ("a pinch", "handful") need better interpretation. For example, we have 1 cup lime juice, 1/2 cup apple cider vinegar, it's not clear. For some ingredients, we can consider to add some estimation logic
+- **Measurement Ambiguity**: Casual language and approximations ("a pinch", "handful") need better interpretation. For example, we have 1 cup lime juice, 1/2 cup apple cider vinegar on the second recipe from chef's note, it's not clear. For some ingredients, we can consider to add some estimation logic
 
 - **Smart Cooking Method Recognition**: AI should infer cooking methods from temperature ranges:
   - 325-450°F (163-232°C) → Oven cooking (baking for bread/cakes/pastries, roasting for meats/nuts)
