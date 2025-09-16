@@ -66,11 +66,11 @@ Frontend (Next.js) → PDF.js → API Route → LangChain + OpenAI → Structure
 
 ### Areas Needing Improvement 🔧
 
-- **No Backend involved**: Add another confirmation button, once users are satisfied with the JSON, can upload the JSON into DB, for most of well structured recipe, this would be very practical.
+- **No Backend Involved**: Add another confirmation button, once users are satisfied with the JSON, can upload the JSON into DB, for most of well structured recipe, this would be very practical.
 
 - **Measurement Ambiguity**: Casual language and approximations ("a pinch", "handful") need better interpretation. For example, we have 1 cup lime juice, 1/2 cup apple cider vinegar on the second recipe from chef's note, it's not clear. For some ingredients, we can consider to add some estimation logic
 
-- **Smart Cooking Method Recognition and temperature guess**: AI should infer cooking methods from temperature ranges:
+- **Smart Cooking Method Recognition and Temperature Guess**: AI should infer cooking methods from temperature ranges:
   - 325-450°F (163-232°C) → Oven cooking (baking for bread/cakes/pastries, roasting for meats/nuts)
   - Steaming → Use water evaporation temp (212°F/100°C) or N/A, this can be discussed
   - Add wok-fry temperature recognition, temperature for wok fry is actually important
